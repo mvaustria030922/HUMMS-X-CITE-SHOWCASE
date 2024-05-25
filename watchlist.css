@@ -163,3 +163,11 @@ a:active {
         width: 100%;
     }
 }
+
+
+footer {
+    background-color: #2e53b9; /* Navy Blue */
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
