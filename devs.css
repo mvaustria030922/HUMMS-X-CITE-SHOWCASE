@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #2e53b9;
+  position: fixed; /* Change to fixed */
+  top: 0;
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  height: 100%;
+  color: white;
+  font-family: "Sen", sans-serif;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+}
+
+.menu-container {
+  flex: -10;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.menu-list-item {
+  margin-right: 50px;
+}
+
+.menu-list-item.active {
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #5c7edb;
+  border-radius: 15%;
+  padding: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #eee;
+  min-height: calc(100vh - 50px);
+  color: #151515;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 70px; 
+}
+
+@keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 15px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative; 
+  animation: fadeDown 0.7s ease-out;
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  position: absolute; 
+  top: -50px; 
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.box p {
+  margin-top: 60px; 
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.box .roles{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.contact-us {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto; 
+    width: calc(33.333% - 20px);
+    position: relative;
+    animation: fadeDown 0.7s ease-out;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-logos a {
+    margin: 0 10px;
+}
+
+.contact-logos img {
+    width: 60px;
+    height: 47px;
+}
+
+
+
+footer {
+    background-color: #2e53b9; /* Navy Blue */
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+@media (max-width: 768px) {
+  .box {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 100%;
+  }
+}

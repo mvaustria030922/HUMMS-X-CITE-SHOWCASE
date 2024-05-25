@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X CITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HUMMS X CITE</div>
+        <nav>
+            <ul>
+                <li><a href="#now-showing">Now Showing</a></li>
+                <li><a href="#coming-soon">Coming Soon</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="now-showing" class="movie-section">
+            <h2>Now Showing</h2>
+            <div class="movie-slide">
+                <div class="movie-list" id="now-showing-list">
+                    <!-- Now Showing Movies -->
+                    <div class="movie" data-video="C:\Users\palar\Downloads\BIRDS OF PREY - Official Trailer 1.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image7.jpg" alt="Now Showing Movie 1">
+                        <p>Birds of Prey (Harley Quinn)</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\Barbie _ Main Trailer.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image8.jpg" alt="Now Showing Movie 2">
+                        <p>Barbie</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\Bliss (2017) _ Trailer _ Jerrold Tarog _ Iza Calzado _ TBA Studios.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image5.jpg" alt="Now Showing Movie 2">
+                        <p>Bliss</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\Marvel Studios' Black Panther - Official Trailer.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image3.jpg" alt="Now Showing Movie 2">
+                        <p>Black Panther</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\Rogue One_ A Star Wars Story Trailer (Official).mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image4.jpg" alt="Now Showing Movie 2">
+                        <p>Star Wards (ROGUE ONE)</p> <!-- Add movie title here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="coming-soon" class="movie-section">
+            <h2>Coming Soon</h2>
+            <div class="movie-slide">
+                <div class="movie-list" id="coming-soon-list">
+                    <!-- Coming Soon Movies -->
+                    <div class="movie" data-video="C:\Users\palar\Downloads\ding.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image6.jpg" alt="Coming Soon Movie 1">
+                        <p>DING</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\ding.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image6.jpg" alt="Coming Soon Movie 1">
+                        <p>DING</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\ding.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image6.jpg" alt="Coming Soon Movie 1">
+                        <p>DING</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\ding.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image6.jpg" alt="Coming Soon Movie 1">
+                        <p>DING</p> <!-- Add movie title here -->
+                    </div>
+                    <div class="movie" data-video="C:\Users\palar\Downloads\ding.mp4">
+                        <img src="C:\Users\palar\OneDrive\Desktop\image6.jpg" alt="Coming Soon Movie 1">
+                        <p>DING</p> <!-- Add movie title here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SM Cinema. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
